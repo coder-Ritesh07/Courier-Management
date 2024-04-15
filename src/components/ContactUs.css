@@ -1,0 +1,47 @@
+.contact-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact-deatils{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.7vw;
+    border: 1px solid #f8e8db ;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    background-color:#ffffff26;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: inset 0px 0px 10px 0px #d8d3d321;
+}
+.contact-btn{
+    display: inline-block;
+    width: 370px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    border: 0 solid #f5750df3;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f5750df3;
+    padding-top: 0.2vw;
+}
+.text-area{
+    width: 370px;
+    height: 100px;
+    resize: none;
+    font-weight: 300;
+    border-color: #f5750df3;
+    background-color: #f8e8db;
+    font-size: 1.2vw;
+}
+.contact-heading{
+    font-size: 3vw;
+    text-align: center;
+}

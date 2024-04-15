@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --primary-color:#f8e8db;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--primary-color);
+}
+ul > li{
+    list-style: none; 
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: 0.6vw;
+}
+.inner-Container{
+    max-width: 90%;
+    margin: 0 auto;
+}

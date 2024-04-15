@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    max-width: 97%;
+    margin: 0 auto;
+    height: calc(100% - 100px);
+    /* background-color:aqua; */
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-section{
+    max-width: 800px;
+    align-self: center;
+    margin-top:-2vw ;
+}
+.dark-name{
+    font-size: 3vw;
+    font-weight: 800;
+}
+.heading{
+    margin-bottom: 2vw;
+    font-weight: 300;
+    font-size: 4vw;
+}
+.sub-heading{
+    margin-top: 1vw;
+    width: 400px;
+    font-weight: 300;
+    font-size: 1.8vw;
+}
+.start{
+    font-weight: 600;
+    font-size: 1.3vw;
+    color: rgb(255, 255, 255);
+    border: 1px solid #f5750df3;
+    border-radius: 5px;
+    padding: 0.6vw 1.5vw;
+    background-color: #f5750df3;
+    margin-right: 2.7vw;
+}
+.request{
+    font-weight: 600;
+    font-size: 1.3vw;
+    color: rgb(255, 255, 255);
+    border: 1px solid #f5750df3;
+    border-radius: 5px;
+    padding: 0.6vw 1.5vw;
+    background-color: #f5750df3;
+}
+.buttons{
+    margin-top: 3.8vw;
+}
+/* Pricing page */
+/* ul > .price-info{
+    list-style-type:lower-roman;
+} */
+ol> .price-info{
+    list-style-type: disc;
+    list-style: inside;
+}
+.pricing-details{
+    margin-top: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5vw;
+    height: 100vh;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8vw;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vw;
+    border: 1px solid #c6691d8e ;
+    width: 580px;
+    height: 480px;
+    background-color:#ffffff26;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 10px 0px #d8d3d3c7;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vw;
+    border: 1px solid #c6691d8e;
+    width: 580px;
+    height: 480px;
+    background-color:#ffffff26;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 10px 0px #d8d3d3c7;
+
+}
+.card-heading{
+    background-color: #f5750df3;
+    border-radius: 8px;
+    font-size: 2.8vw;
+    text-align: center;
+    padding: 1.5vw;
+    color: white;
+}
+.price-info{
+    font-size: 1.8vw;
+    padding-left: 2vw;
+    font-weight: 600;
+}
+.price-heading{
+    font-size: 3vw;
+    color: #f5750df3;
+}
+.Total-price{
+    /* border: 1px solid red; */
+    background-color: #f5750df3;
+    border-radius: 8px;
+    height: 5vw;
+    font-size: 2vw;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding-top:0.8vw ;
+    margin-top: 3vw;
+}
+ol > li> p{
+    display: inline;
+    font-weight: 800;
+}

@@ -1,0 +1,56 @@
+.footer-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.footer-part1{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 1.5vw 4vw;
+}
+.footer-part1-heading{
+    font-size: 2.5vw;
+}
+.footer-part1-info{
+    font-size: 1.5vw;
+}
+.footer-part-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw;
+    background-color: rgba(40, 39, 39, 0.94);
+    color: white;
+}
+.left-part{
+    display: flex;
+    flex-direction: column;
+}
+.bike-logo{
+    margin-left: 1.2vw;
+}
+.company{
+    font-size: 1.6vw;
+    font-weight: 700;
+    width: 370px;
+}
+.right-part{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3vw;
+}
+.right-part-info{
+    font-size: 1.9vw;
+    font-weight: 600;
+}
+.footer-data{
+    margin-bottom: 0.4vw;
+    color: rgb(194, 192, 192);
+}
+.footer-data-1{
+    color: rgb(194, 192, 192);
+    margin-bottom: 0.4vw;
+    margin-top: 1vw;
+}

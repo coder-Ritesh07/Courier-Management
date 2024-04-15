@@ -1,0 +1,68 @@
+.about-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4vw;
+}
+.ri-briefcase-fill {
+  color: #f5750df3;
+  font-size: 4vw;
+  align-self: center;
+}
+.ri-building-4-fill {
+  color: #f5750df3;
+  font-size: 4vw;
+  align-self: center;
+}
+.ri-truck-fill {
+  font-size: 4vw;
+  color: #f5750df3;
+  align-self: center;
+}
+
+.box-1 {
+  border: 1px solid #f5750df3;
+  height: 400px;
+  width: 120vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+  padding: 1.5vw;
+  border-radius: 8px;
+  background-color: #ffffff32;
+  box-shadow: inset 0px 0px 10px 0px #d8d3d321;
+}
+.about-info{
+ color: black;
+ font-weight: 600;
+}
+.box-2{
+  border: 1px solid #f5750df3;
+  height: 400px;
+  width: 120vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+  padding: 1.5vw;
+  border-radius: 8px;
+  background-color: #ffffff32;
+  box-shadow: inset 0px 0px 10px 0px #d8d3d321;
+}
+.box-3{
+  border: 1px solid #f5750df3;
+  border-radius: 8px;
+  height: 400px;
+  width: 120vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+  padding: 1.5vw;
+  background-color: #ffffff32;
+  box-shadow: inset 0px 0px 10px 0px #d8d3d321;
+}
+.about-heading{
+  font-size: 2.5vw;
+  font-weight: 700;
+}
